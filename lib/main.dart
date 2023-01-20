@@ -12,12 +12,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Firebase project',
       theme: ThemeData(
       
         primarySwatch: Colors.blue,
       ),
-      home: const Screen_one(),
+      home: const Screen_One(),
     );
   }
 }
