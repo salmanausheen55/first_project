@@ -1,14 +1,25 @@
 import 'package:flutter/material.dart';
-class Screen_one extends StatefulWidget {
-  const Screen_one({super.key});
+class Screen_One extends StatefulWidget {
+  const Screen_One({super.key});
 
   @override
-  State<Screen_one> createState() => _Screen_oneState();
+  State<Screen_One> createState() => _Screen_OneState();
 }
 
-class _Screen_oneState extends State<Screen_one> {
+class _Screen_OneState extends State<Screen_One> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text (
+          'Game',
+          style: TextStyle(
+            color: Colors.red,
+            fontWeight: FontWeight.bold,
+          ),
+        ),
+      )
+
+    );
   }
 }
